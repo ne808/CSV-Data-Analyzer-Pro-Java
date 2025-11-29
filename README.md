@@ -21,10 +21,10 @@ CSV, TSV and TXT.
 In terms of how the data shall be arranged, there are 2 examples in the ZIP file ready.
 
 
-     Column Headers: First row should contain column names
-    Numeric Data: Data values must be numeric (integers or decimals)
-    One Value Per Cell: Each cell contains a single value
-    Consistent Columns: Each row should have the same number of columns
+Column Headers: First row should contain column names
+Numeric Data: Data values must be numeric (integers or decimals)
+One Value Per Cell: Each cell contains a single value
+Consistent Columns: Each row should have the same number of columns
 
 The program automatically handles:
 
