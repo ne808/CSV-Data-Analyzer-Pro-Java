@@ -21,10 +21,10 @@ CSV, TSV and TXT.
 In terms of how the data shall be arranged, there are 2 examples in the ZIP file ready.
 
 
-     Column Headers: First row should contain column names
-    Numeric Data: Data values must be numeric (integers or decimals)
-    One Value Per Cell: Each cell contains a single value
-    Consistent Columns: Each row should have the same number of columns
+Column Headers: First row should contain column names
+Numeric Data: Data values must be numeric (integers or decimals)
+One Value Per Cell: Each cell contains a single value
+Consistent Columns: Each row should have the same number of columns
 
 The program automatically handles:
 
@@ -37,6 +37,7 @@ Non-numeric values: Text columns are ignored (only numeric columns analyzed)
 NA values: NA, N/A, null, -, . treated as empty
 
 What NOT to Include
+
 Merged cells: Cannot be parsed correctly
 Multiple tables in one file: Only first table structure recognized
 Formulas Raw values only, not Excel formulas
