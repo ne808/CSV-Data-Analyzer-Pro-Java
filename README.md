@@ -37,6 +37,7 @@ Non-numeric values: Text columns are ignored (only numeric columns analyzed)
 NA values: NA, N/A, null, -, . treated as empty
 
 What NOT to Include
+
 Merged cells: Cannot be parsed correctly
 Multiple tables in one file: Only first table structure recognized
 Formulas Raw values only, not Excel formulas
